@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-ARG DEBIAN_FRONTEND=noninteractive
+ENV DEBIAN_FRONTEND=noninteractive
 ENV DISPLAY :1
 
 RUN apt-get update \
